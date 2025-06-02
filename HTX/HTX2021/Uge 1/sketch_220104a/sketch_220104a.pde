@@ -1,0 +1,7 @@
+public String front3(String str) {
+  if(str.length() <= 1){
+    return str;
+  }
+  String move = str.substring(3, str.length()-1);
+    println(move);
+}

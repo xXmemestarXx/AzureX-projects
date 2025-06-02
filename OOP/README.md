@@ -1,0 +1,1 @@
+This project has been made in collaboration with Nikolaj Madsen (nmads24@student.sdu.dk) and Valdemar Reib (varei24@student.sdu.dk).

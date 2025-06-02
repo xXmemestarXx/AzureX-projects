@@ -1,0 +1,60 @@
+h1{
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  width: 50%;
+  border: 5px solid black;
+  box-shadow: 5px 2px;
+  padding: 25px;
+  margin-left: 22%;
+}
+.home_button button {
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 47.5%;
+}
+
+.memes_button button {
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 47.5%;
+  margin-top: 2px;
+}
+.Email{
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, Times, 'Times New Roman', serif;
+}
+.Links{
+  padding-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.Links:hover{
+  text-align: center;
+  font-size: 20.5px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+  background-color: rgb(105, 121, 129);
+}
+.opinion_all {
+  text-align: center;
+  margin: 100px;
+}
+
+.opinion_all textarea {
+  text-align: left
+}
+
+.opinion_all p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#txt {
+  font-size: 200%;
+}
+

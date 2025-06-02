@@ -1,0 +1,41 @@
+Pseudo kode
+
+Programmet startes
+Startside vises
+Hvis information side vælges
+  vis informationsside
+Ellers hvis oversættelses siden vælges
+  vis oversættelses siden
+Hvis brugeren klikker på tilbage knappen 
+  vis startside
+
+Informationsside
+hvis brug af morsekoden vælges
+  (brugeren klikker på knappen)
+  vis side med morsekode 
+hvis brugeren vælger lyd demo
+  (brugeren klikker på knappen)
+  vis side med lyd profiler
+hvis brugeren vælger visualiseringen af morsekode
+  (brugeren klikker på knappen)
+  vis side med visualisering af morsekode
+Hvis brugeren klikker på tilbage knappen
+  (brugeren klikker på knappen)
+  brugen tages tilbage til hoved menuen
+
+Oversættelse Side
+Hvis der skrives morsekode
+  Input af morsekode
+Oversættelse af funktion
+  Output af oversættelse
+Hvis der skrives alfabetisk
+  Input af morsekode
+Oversættelse af funktion
+  Output af oversættelse
+Hvis der ikke skrives alfabetisk eller morsekode
+  Vis startside
+Hvis der vælges at oversætte igen
+  Vis begyndelse af oversættelse side
+Hvis der vælges nej til at oversætte igen
+  Vis start side
+

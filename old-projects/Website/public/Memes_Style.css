@@ -1,0 +1,101 @@
+body{
+  background-color: #6b5b95;
+}
+.Title h1 {
+  border-style: solid;
+  font-size: 250%;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+}
+.about_button button {
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 48%;
+  margin-top: 2px;
+}
+.home_button button {
+  width: 60px;
+  height: 20px;
+  border-radius: 20px;
+  margin-left: 48%;
+  margin-top: 2px;
+}
+.bigbang {
+    padding-bottom: 10px;
+    position:absolute;
+    width:100%;
+    height:100%;
+    text-align: center;
+}
+.bigbang img{
+  border: 2px groove black;
+}
+.bigbang h2{
+  font-family: monospace;
+  text-align: center;
+  font-size: 50px;
+}
+.turnleft{
+  font-family: monospace;
+  padding-top: 560px;
+  padding-bottom: 10px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.turnleft h2{
+  text-align: center;
+  font-family: monospace;
+  font-size: 50px;
+}
+.turnleft img{
+  border: 2px groove black;
+}
+.road{
+  padding-top: 1120px;
+  padding-bottom: 10px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.road{
+  padding-top: 1200px;
+}
+.road img{
+  border: 2px groove black;
+}
+.yobamma{
+  font-family: monospace;
+  padding-top: 1550px;
+  position:absolute;
+  width:100%;
+  height:100%;
+  text-align: center;
+}
+.yobamma h2{
+  padding-top: 60px;
+  font-size: 50px;
+}
+.yobamma img{
+  border: 2px groove black;
+}
+.opinion_all {
+  text-align: center;
+  margin: 100px;
+}
+
+.opinion_all textarea {
+  text-align: left
+}
+
+.opinion_all p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+#txt {
+  font-size: 200%;
+}

@@ -1,0 +1,36 @@
+.Info{
+ font-family: 'Times New Roman', Times, serif;
+ font-size: 20px;
+ text-align: center
+}
+body{
+    background-color: rgb(105, 121, 129);
+}
+.about_button button{
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 48%;
+}
+.memes_button button{
+    width: 60px;
+    height: 20px;
+    border-radius: 20px;
+    margin-left: 48%;
+    margin-top: 2px;
+}
+.opinion_all{
+    text-align: center;
+    margin: 100px;
+}
+.opinion_all textarea{
+    text-align: left
+}
+.opinion_all p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#txt{
+    font-size: 200%;
+}
+

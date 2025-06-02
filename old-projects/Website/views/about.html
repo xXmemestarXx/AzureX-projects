@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type='text/css' href="About_Style.css">
+    <script src="main.js"></script>
+    <title>About Page</title>
+  </head>
+  <body onload="startTime()">
+    <div id="txt"></div>
+      <div class="home_button">
+        <button name="Home" type='button' value='Home' class="button" onclick="document.location.href='./';">Home</button>
+      </div>
+      <div class="memes_button">
+        <button name="Memes" type='button' value='Memes' class="button" onclick="document.location.href='./memes';">Memes</button>
+      </div>
+      <h1>Contact Information</h1>
+        <div class="Links">
+        <a href="https://www.twitter.com/KLxXmemestarXx">Twitter</a>
+        <br>
+        <a href="//www.instagram.com/memestar_bonde/">Instagram</a>
+        <br>
+        <a href="https://github.com/xXmemestarXx/">Github</a>
+        <br>  
+        <div class="Email">
+        <p>Contact Email: matrix.anonymous123@gmail.com</p>
+        <div class="opinion_all">
+          <p>What do you think of this Website</p>
+          <p>It has to be over 20 character's</p>
+           <textarea placeholder="You're opinion here" name="opinion" id="opinion" cols="60" rows="10"></textarea>
+        <div class="opinion_submit">
+          <button onclick="opinion()" class="submit" type="submit">Submit</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
