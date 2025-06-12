@@ -1,0 +1,4 @@
+Off by one problem
+- Edit the range for the loop
+- Base case, keeping 0 in the keep and outputs or not
+- Tried to isolate the problem by excluding the prune module (It works without prune, so prune is the one offsetting it.)
