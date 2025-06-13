@@ -1,7 +1,4 @@
 import os
-# Suppress TensorFlow logging messages (e.g., GPU warnings, INFO messages)
-os.environ['TF_ENABLE_ONEDNN_OPTS'] = '0'
-os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' # This will hide INFO and WARNING messages
 
 import cv2
 import numpy as np
@@ -87,7 +84,7 @@ def print_board(board):
 def solve_sudoku_puzzle(args):
     img_fpath = args['img_fpath']
     # Hardcode the model path directly in the function
-    model_fpath = "models/model_15_epochs_font_mnist.keras" 
+    model_fpath = "models/model.keras" 
     
     # Check for valid filepath because cv2.imread fails silently
     if not os.path.exists(img_fpath):
